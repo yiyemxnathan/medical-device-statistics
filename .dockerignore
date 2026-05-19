@@ -1,0 +1,8 @@
+.git
+.superpowers
+pytest-cache-files-*
+__pycache__
+node_modules
+dist
+statistics.db
+*.pyc
