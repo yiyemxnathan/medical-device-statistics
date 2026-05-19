@@ -1,0 +1,9 @@
+.superpowers/
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+.venv/
+node_modules/
+dist/
+statistics.db
+*.pyc
