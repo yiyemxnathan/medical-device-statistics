@@ -1,0 +1,26 @@
+[project]
+name = "medical-device-statistics-backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlmodel",
+    "pydantic-settings",
+    "pandas",
+    "numpy",
+    "scipy",
+    "statsmodels",
+    "jinja2",
+    "python-multipart",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "httpx",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
